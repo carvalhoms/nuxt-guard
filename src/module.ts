@@ -6,7 +6,11 @@ export interface ModuleOptions {}
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: 'nuxt-guard',
-    configKey: 'nuxtGuard'
+    configKey: 'nuxtGuard',
+    compatibility: {
+      nuxt: '^3.0.0'
+    },
+    version: require('../package.json').version
   },
   // Default configuration options of the Nuxt module
   defaults: {},

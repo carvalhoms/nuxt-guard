@@ -1,6 +1,6 @@
 {
   "name": "nuxt-guard",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The new auth module for Nuxt3",
   "repository": "https://github.com/carvalhoms/nuxt-guard",
   "license": "MIT",
